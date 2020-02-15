@@ -6,9 +6,13 @@ description: >
   Installation and configuration information
 ---
 
-## Prerequisites
+This is guide is based on the assumption that you are using Raspbian 10 (buster). Though the code works on other platforms, the setup process has been tailored for this operating system and will not work on older versions. You can verify what version of Raspbian you have by running this command:
 
-> This is guide is based on the assumption that you are using Raspbian 10 (buster). Though the code works on other platforms, the setup process has been tailored for this operating system.
+```bash
+cat /etc/os-release
+```
+
+## Prerequisites
 
 Before setting up PiWeatherRock you need to setup automatic logins to the desktop. Do this by running the command `sudo raspi-config` in a terminal. When the program opens select "Boot Options" > "Desktop / CLI" > "Desktop Autologin". Select finish and then reboot if prompted.
 

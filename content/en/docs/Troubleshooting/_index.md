@@ -19,7 +19,7 @@ This most likely means that you are on an older version of Raspbian. You can ver
 cat /etc/os-release
 ```
 
-If the version number is below 10 you will want to upgrade.
+If the version number is below 10 you will need to upgrade if you want to utilize the setup script.
 
 ## Git permission denied
 
