@@ -6,7 +6,15 @@ description: >
   How to get the latest version of PiWeatherRock
 ---
 
-If you already have this project cloned to your computer or Pi then just run these commands:
+[CHANGELOG.md](https://github.com/genebean/PiWeatherRock/blob/master/CHANGELOG.md) is maintained in the PiWeatherRock repository and lists the notable changes from one version to the next. If you are on a version newer than 1.3.0 you will have a copy of the change log in your PiWeatherRock directory. The newest numbered version in that file should correspond to the version you are running.
+
+## Upgrading from before v1.3.0
+
+Version 1.3.0 introduced the web-based configuration page. The update process above will take care of migrating your settings so there is nothing extra that should be need. Please see the getting started page for more info.
+
+## General update process
+
+Run the commands below to update your copy of PiWeatherRock:
 
 > Note that this code block includes more than just the command you type into your terminal. The command is just the bit directly after the `$`
 
