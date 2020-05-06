@@ -38,12 +38,32 @@ Clone the PiWeatherRock repository to your to your home directory:
 git clone https://github.com/genebean/PiWeatherRock.git /home/pi/PiWeatherRock
 ```
 
-Once you have cloned the repository, `cd` into it and run the install script. You will need to provide it with the name you'd like your Pi to have. For example, to name your Pi `mylittlepi` you'd do this:
+> The next step is new and will only be needed during the transitional period between now and when the new version is completed.
+
+Once you have cloned the repository, `cd` into it and checkout the last stable version:
+
+```bash
+$ cd /home/pi/PiWeatherRock
+
+$ git fetch --all --tags
+Fetching origin
+
+$ git checkout tags/1.3.0
+Note: switching to 'tags/1.3.0'.
+# a bunch of output will show here... disregard it.
+
+$ git status
+HEAD detached at 1.3.0
+nothing to commit, working tree clean
+```
+
+So long as you see the `HEAD detached at 1.3.0` line after the last command everything has worked as expected.
+
+The next step is to run the install script. You will need to provide it with the name you'd like your Pi to have. For example, to name your Pi `mylittlepi` you'd do this:
 
 > If you have already renamed your Pi its fine to enter the current name here
 
 ```bash
-cd /home/pi/PiWeatherRock
 sudo ./install.sh mylittlepi
 ```
 
