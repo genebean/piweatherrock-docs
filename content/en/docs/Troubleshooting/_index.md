@@ -9,6 +9,8 @@ description: >
 
 Below are a couple of tips based on issues I’ve either run into myself or others have reported. Suggestions for Addison’s are welcome.
 
+> **NOTE:** all the tips below are from the older version that required cloning the code from GitHub. New tips will be added as issues arise.
+
 ## Setup scrip error
 
 > Error: Evaluation Error: Operator '[]' is not applicable to an Undef Value. at /home/pi/PiWeatherRock/setup.pp:3:4 on node pi.home

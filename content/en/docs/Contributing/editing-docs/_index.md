@@ -1,7 +1,7 @@
 ---
-title: "Contribution guidelines"
-linkTitle: "Contributing"
-weight: 10
+title: "Editing or contributing to documentation"
+linkTitle: "Editing docs"
+weight: 1
 description: >
   How to contribute to the docs
 ---
@@ -13,10 +13,6 @@ Hugo is an open-source static site generator that provides templates,
 a standard directory structure in which to organize content, and a website generation
 engine. Pages can be written in Markdown or HTML (or both if you want), and Hugo
 will convert them into a website like this one.
-
-All submissions, including submissions by project members, must come via a GitHub
-pull requests. Consult GitHub's [Proposing changes to your work with pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/proposing-changes-to-your-work-with-pull-requests)
-docs for more information.
 
 ## Useful resources
 

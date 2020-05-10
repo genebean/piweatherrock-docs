@@ -137,7 +137,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/genebean/piweatherr
 	icon = "fab fa-github"
         desc = "PiWeatherRock development takes place here!"
 [[params.links.developer]]
-	name = "Help"
+	name = "Propose Changes"
 	url = "../docs/proposing-changes"
 	icon = "fas fa-book"
         desc = "Learn how to submit modifications to PiWeatherRock"

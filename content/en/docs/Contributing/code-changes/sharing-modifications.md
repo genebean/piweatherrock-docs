@@ -1,18 +1,26 @@
 ---
-title: "Proposing changes to PiWeatherRock"
-linkTitle: "Proposing changes"
-weight: 6
+title: "Sharing your modifications to PiWeatherRock"
+linkTitle: "Sharing modifications"
+weight: 2
 description: >
   A quick guide on sharing your modified version of PiWeatherRock
 ---
 
 Got an idea for how to make PiWeatherRock better? AWESOME! Just like with these docs, suggested code should be submitted
-via a GitHub pull requests. Below is a quick guide on how to share your modifications. It assumes that you want to share changes you have made to `weather.py`. If you actually want to share changes to some other file the same general process should work so long as you adjust steps 2 and 4 accordingly.
+via a GitHub pull requests. Below is a quick guide on how to share your modifications.
+
+## weather.py
+
+If you did your modifications when almost everything was in `weather.py` then I suggest going to [https://gist.github.com](https://gist.github.com/) and pasting your version into the larger box, entering `weather.py` in the short box just above the large area, and then entering a description of what's special about your version in the top box that says "Gist description." After that click "Create public gist" and then go to [https://github.com/genebean/PiWeatherRock/issues](https://github.com/genebean/PiWeatherRock/issues), click "New issue" and then click "Get started" next to "Feature request." Answer the questions that are in the next page and include the link of the gist you made.
+
+## Editing files on GitHug
+
+If you have made some changes but are not comfortable using git then this is the section for you. It assumes that you want to share changes you have made to `piweatherrock/weather.py`. If you actually want to share changes to some other file the same general process should work so long as you adjust steps 2 and 4 accordingly.
 
 > Caution: please do not post your API key for Dark Sky or any other sensitive information.
 
 1. Go to the [PiWeatherRock GitHub page](https://github.com/genebean/PiWeatherRock)
-2. Click on `weather.py` to view its code
+2. Click on the `piweatherrock` folder and then `weather.py` to view its code
    1. Much of what comes next is adapted from GitHub's [Editing files in another user's repository](https://help.github.com/en/github/managing-files-in-a-repository/editing-files-in-another-users-repository) docs.
 3. Just above the code there is a pencil icon on the right side that says "Edit this file" when you mouse over it. Click the pencil.
 4. Back on your computer or Pi, open your modified version of `weather.py` in a text editor and copy everything in it.

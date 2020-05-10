@@ -1,16 +1,15 @@
 +++
 title = "PiWeatherRock"
 linkTitle = "PiWeatherRock"
-
 +++
 
 {{< blocks/cover title="Display local weather on a Raspberry Pi" image_anchor="top" height="full" color="orange" >}}
 <div class="mx-auto">
 	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
-		Learn More <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+		Documentation <i class="fas fa-book ml-2"></i>
 	</a>
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/genebean/PiWeatherRock">
-		Download <i class="fab fa-github ml-2 "></i>
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://gitter.im/PiWeatherRock/community">
+		Community Chat <i class="fab fa-gitter ml-2 "></i>
 	</a>
 	<p class="lead mt-5"><strong>Pi + Display = modern weather rock</strong></p>
 	{{< blocks/link-down color="info" >}}
@@ -23,7 +22,8 @@ been acquired by Apple. The announcement went on to say that they are no longer 
 will be shutting the API down at the end of 2021.
 
 This unfortunate bit of news isn't the end of this project... I've been here before. This just means that I will have to do a third
-API migration. Work related to this, and suggestions on what API to use, are being tracked in
+API migration. I have decided to use <a href="https://www.climacell.co/weather-api/">ClimaCell</a> as the new backend. This is actually
+going to enable some new features. Work related to this, and suggestions on what API to use, are being tracked in
 <a href="https://github.com/genebean/PiWeatherRock/issues/48">issue 48</a> of the project's GitHub repo.
 {{% /blocks/lead %}}
 
