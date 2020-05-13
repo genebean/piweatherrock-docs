@@ -15,11 +15,13 @@ Starting with version 2.0.0 the way code gets onto your computer is totally diff
 
 Migration is only slightly different than the new [Getting Started](/docs/getting-started/) guide.
 
-## Install Puppet Bolt
+## Install Puppet Bolt (not on your Pi)
 
 [Puppet](https://puppet.com) has an open source tool called [Bolt](https://puppet.com/open-source/bolt/) that makes it easy to perform ad-hoc tasks while also offering the option to reuse all the automation people have published on the [Puppet Forge](https://forge.puppet.com). This section will show you how to get started with PiWeatherRock via Bolt and is the recommended method as I hope to use it to add even more automation as time goes on.
 
-**Note:** all steps below are performed on a machine other than your Pi.
+{{% alert %}}
+**Note:** all steps below are performed on a machine other than your Pi. Bolt **will not** install on your Pi due to it not being available for the types of processors they use.
+{{% /alert %}}
 
 The first step is to install Bolt. Go to [https://puppet.com/open-source/bolt/](https://puppet.com/open-source/bolt/) and click the "Get Started" link that is just below the first paragraph and follow the directions on the page it takes you to.
 
