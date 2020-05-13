@@ -9,6 +9,10 @@ resources:
     byline: "Puppet Forge May 2020"
 ---
 
+{{% alert title="Notice" %}}
+Starting with version 2.0.0 the way code gets onto your computer is totally different. The files in `/home/pi/PiWeatherRock` will no longer be used at all once you have finished migrating.
+{{% /alert %}}
+
 Migration is only slightly different than the new [Getting Started](/docs/getting-started/) guide.
 
 ## Install Puppet Bolt
