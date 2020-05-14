@@ -13,7 +13,7 @@ via a GitHub pull requests. Below is a quick guide on how to share your modifica
 
 If you did your modifications when almost everything was in `weather.py` then I suggest going to [https://gist.github.com](https://gist.github.com/) and pasting your version into the larger box, entering `weather.py` in the short box just above the large area, and then entering a description of what's special about your version in the top box that says "Gist description." After that click "Create public gist" and then go to [https://github.com/genebean/PiWeatherRock/issues](https://github.com/genebean/PiWeatherRock/issues), click "New issue" and then click "Get started" next to "Feature request." Answer the questions that are in the next page and include the link of the gist you made.
 
-## Editing files on GitHug
+## Editing files on GitHub
 
 If you have made some changes but are not comfortable using git then this is the section for you. It assumes that you want to share changes you have made to `piweatherrock/weather.py`. If you actually want to share changes to some other file the same general process should work so long as you adjust steps 2 and 4 accordingly.
 
